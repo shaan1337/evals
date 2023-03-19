@@ -1,0 +1,7 @@
+bitwise-xor:
+  id: bitwise-xor.dev.v0
+  metrics: [accuracy]
+bitwise-xor.dev.v0:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: bitwise-xor/samples.jsonl

@@ -1,0 +1,7 @@
+bitwise-or:
+  id: bitwise-or.dev.v0
+  metrics: [accuracy]
+bitwise-or.dev.v0:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: bitwise-or/samples.jsonl
